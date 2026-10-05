@@ -1,0 +1,42 @@
+{
+ "passages": 305,
+ "retrieval": {
+  "bm25": {
+   "hit@1": 0.861,
+   "hit@3": 0.917,
+   "hit@5": 0.944,
+   "hit@10": 0.944,
+   "mrr": 0.896
+  },
+  "dense": {
+   "hit@1": 0.75,
+   "hit@3": 0.806,
+   "hit@5": 0.833,
+   "hit@10": 0.944,
+   "mrr": 0.789
+  },
+  "hybrid": {
+   "hit@1": 0.778,
+   "hit@3": 0.889,
+   "hit@5": 0.917,
+   "hit@10": 0.944,
+   "mrr": 0.829
+  }
+ },
+ "baseline": {
+  "analyst": "rule-based baseline (no LLM key configured)",
+  "clauses": 36,
+  "violations": 20,
+  "violations_flagged": 14,
+  "recall": 0.7,
+  "compliant_clauses": 16,
+  "false_alarms": 1,
+  "precision": 0.933,
+  "called_non_compliant": 0,
+  "citations_given": 34,
+  "citation_section_correct": 0.676,
+  "flagged_violations_with_correct_section": "9/14",
+  "citations_removed_by_verifier": 0
+ },
+ "llm": "not run: no API key in this environment"
+}

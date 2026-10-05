@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: compliance-audit-agent
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: ANTHROPIC_API_KEY     # optional: without a key the keyword baseline runs
+        sync: false
+      - key: OPENAI_API_KEY        # optional alternative
+        sync: false

@@ -1,0 +1,27 @@
+Lean batch release initiative
+
+Mock internal proposal, written for testing. Not a real company document.
+
+1. To shorten cycle time, batches of finished tablets will ship to distributors as soon as packaging is complete, with identity and strength assay results reviewed the following week.
+
+2. The quality control unit keeps final authority to approve or reject every lot of components, containers, closures and finished product.
+
+3. Incoming active ingredient lots from our three longest-standing suppliers will be moved straight to production on the strength of the supplier's certificate of analysis; no in-house identity test will be run for these suppliers.
+
+4. For other components we accept the supplier's report of analysis only after performing at least one specific identity test ourselves, and we re-validate each supplier's results on a set schedule.
+
+5. Operators may depart from the written batch instructions when they judge it will improve yield; these adjustments are discussed at the weekly shift meeting and are not entered in the batch record.
+
+6. All production and process control procedures, and any changes to them, are drafted by manufacturing and reviewed and approved by the quality control unit before use.
+
+7. When a batch misses its yield limits or a specification, an investigation is opened only if the batch has not yet been distributed; batches already shipped are closed without further review.
+
+8. Batch production records will be kept for six months after the batch is released and then destroyed to reduce storage costs.
+
+9. Each batch record identifies the people who performed and who checked every significant step, the equipment used, and the specific component lots charged.
+
+10. New line operators begin work on the packaging line on day one and pick up the job by shadowing colleagues; formal GMP training is offered once, during the annual site shutdown, for those who have time.
+
+11. Major equipment has an individual log showing date, time, product and lot for each batch, and the people who clean and double-check the equipment sign and date each entry.
+
+12. Rejected in-process material will be stored on the open production floor next to approved material so that it can be reworked quickly.
