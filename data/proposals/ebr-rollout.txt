@@ -1,0 +1,27 @@
+Electronic batch record system rollout
+
+Mock internal proposal, written for testing. Not a real company document.
+
+1. Each production shift will share one login and password for the electronic batch record system so that handovers are quick.
+
+2. Every electronic signature is unique to one person and is never reassigned; we verify a person's identity before issuing their signature credentials.
+
+3. When a record is corrected the system overwrites the old value to keep the record tidy; previous entries are not retained.
+
+4. The system writes a secure, computer-generated, time-stamped audit trail of every entry and action that creates, changes or deletes a record, and keeps it for as long as the record itself.
+
+5. The system will go live at all three plants in March; validation testing is deferred to a later phase if budget allows.
+
+6. Signed records will display the signer's initials only. The date, time and meaning of the signature will not be shown on screen or on printouts.
+
+7. System access is limited to authorised individuals, and authority checks restrict who can sign, alter a record or perform an operation.
+
+8. Passwords are set once at onboarding and remain valid for the length of employment; there is no periodic review or expiry.
+
+9. Lost or stolen access cards are electronically deauthorised as soon as they are reported, and replacements are issued under controlled procedures.
+
+10. Data entered into the system will be held on the production server alone; no backup copy will be maintained.
+
+11. Automated equipment is calibrated and checked under a written programme, and written records of those checks are kept.
+
+12. We can produce accurate and complete copies of records in human-readable and electronic form for inspection.

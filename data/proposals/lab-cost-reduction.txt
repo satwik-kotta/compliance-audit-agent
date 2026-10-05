@@ -1,0 +1,27 @@
+Laboratory and stability cost reduction plan
+
+Mock internal proposal, written for testing. Not a real company document.
+
+1. Expiration dates for the new oral suspension will be set at 36 months based on the shelf life of a similar competitor product; no stability study of our own is planned.
+
+2. Stability is tested under a written programme, with the product stored in the same container-closure system in which it is marketed.
+
+3. Reserve samples of each finished batch will be discarded once the batch has been released, freeing up the retain room.
+
+4. A reserve sample of each lot of active ingredient is kept, at least twice the quantity needed for all specification tests, for one year after the expiry of the last product lot containing it.
+
+5. Customer complaints received by telephone will be handled by the call centre and need not be written down unless the caller follows up by letter.
+
+6. Every complaint record states the product name and strength, lot number, complainant, nature of the complaint and our reply, and is kept at the manufacturing site.
+
+7. Returned product that sat in an unrefrigerated truck for an unknown period will be restocked for sale if the cartons look intact.
+
+8. Equipment is cleaned whenever an operator thinks it necessary; there will be no written cleaning procedure or schedule.
+
+9. Equipment is inspected for cleanliness immediately before use, and clean equipment is protected from contamination until then.
+
+10. The quantities of labels issued, used and returned for a batch will no longer be reconciled; any leftover printed labels carrying lot numbers go back into general stock.
+
+11. Product quality data are reviewed at least once a year for each product, covering a representative number of batches, complaints, recalls and returns.
+
+12. Sampling plans for finished-product testing will be decided by the analyst on the day and are not documented.

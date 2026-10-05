@@ -1,0 +1,366 @@
+[
+ {
+  "proposal": "lean-batch-release",
+  "title": "Lean batch release initiative",
+  "clause_no": 1,
+  "clause": "To shorten cycle time, batches of finished tablets will ship to distributors as soon as packaging is complete, with identity and strength assay results reviewed the following week.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.165"
+  ]
+ },
+ {
+  "proposal": "lean-batch-release",
+  "title": "Lean batch release initiative",
+  "clause_no": 2,
+  "clause": "The quality control unit keeps final authority to approve or reject every lot of components, containers, closures and finished product.",
+  "gold": "compliant",
+  "gold_sections": [
+   "211.22"
+  ]
+ },
+ {
+  "proposal": "lean-batch-release",
+  "title": "Lean batch release initiative",
+  "clause_no": 3,
+  "clause": "Incoming active ingredient lots from our three longest-standing suppliers will be moved straight to production on the strength of the supplier's certificate of analysis; no in-house identity test will be run for these suppliers.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.84"
+  ]
+ },
+ {
+  "proposal": "lean-batch-release",
+  "title": "Lean batch release initiative",
+  "clause_no": 4,
+  "clause": "For other components we accept the supplier's report of analysis only after performing at least one specific identity test ourselves, and we re-validate each supplier's results on a set schedule.",
+  "gold": "compliant",
+  "gold_sections": [
+   "211.84"
+  ]
+ },
+ {
+  "proposal": "lean-batch-release",
+  "title": "Lean batch release initiative",
+  "clause_no": 5,
+  "clause": "Operators may depart from the written batch instructions when they judge it will improve yield; these adjustments are discussed at the weekly shift meeting and are not entered in the batch record.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.100"
+  ]
+ },
+ {
+  "proposal": "lean-batch-release",
+  "title": "Lean batch release initiative",
+  "clause_no": 6,
+  "clause": "All production and process control procedures, and any changes to them, are drafted by manufacturing and reviewed and approved by the quality control unit before use.",
+  "gold": "compliant",
+  "gold_sections": [
+   "211.100"
+  ]
+ },
+ {
+  "proposal": "lean-batch-release",
+  "title": "Lean batch release initiative",
+  "clause_no": 7,
+  "clause": "When a batch misses its yield limits or a specification, an investigation is opened only if the batch has not yet been distributed; batches already shipped are closed without further review.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.192"
+  ]
+ },
+ {
+  "proposal": "lean-batch-release",
+  "title": "Lean batch release initiative",
+  "clause_no": 8,
+  "clause": "Batch production records will be kept for six months after the batch is released and then destroyed to reduce storage costs.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.180"
+  ]
+ },
+ {
+  "proposal": "lean-batch-release",
+  "title": "Lean batch release initiative",
+  "clause_no": 9,
+  "clause": "Each batch record identifies the people who performed and who checked every significant step, the equipment used, and the specific component lots charged.",
+  "gold": "compliant",
+  "gold_sections": [
+   "211.188"
+  ]
+ },
+ {
+  "proposal": "lean-batch-release",
+  "title": "Lean batch release initiative",
+  "clause_no": 10,
+  "clause": "New line operators begin work on the packaging line on day one and pick up the job by shadowing colleagues; formal GMP training is offered once, during the annual site shutdown, for those who have time.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.25"
+  ]
+ },
+ {
+  "proposal": "lean-batch-release",
+  "title": "Lean batch release initiative",
+  "clause_no": 11,
+  "clause": "Major equipment has an individual log showing date, time, product and lot for each batch, and the people who clean and double-check the equipment sign and date each entry.",
+  "gold": "compliant",
+  "gold_sections": [
+   "211.182"
+  ]
+ },
+ {
+  "proposal": "lean-batch-release",
+  "title": "Lean batch release initiative",
+  "clause_no": 12,
+  "clause": "Rejected in-process material will be stored on the open production floor next to approved material so that it can be reworked quickly.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.110"
+  ]
+ },
+ {
+  "proposal": "ebr-rollout",
+  "title": "Electronic batch record system rollout",
+  "clause_no": 1,
+  "clause": "Each production shift will share one login and password for the electronic batch record system so that handovers are quick.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "11.300",
+   "11.100",
+   "11.10",
+   "11.200"
+  ]
+ },
+ {
+  "proposal": "ebr-rollout",
+  "title": "Electronic batch record system rollout",
+  "clause_no": 2,
+  "clause": "Every electronic signature is unique to one person and is never reassigned; we verify a person's identity before issuing their signature credentials.",
+  "gold": "compliant",
+  "gold_sections": [
+   "11.100"
+  ]
+ },
+ {
+  "proposal": "ebr-rollout",
+  "title": "Electronic batch record system rollout",
+  "clause_no": 3,
+  "clause": "When a record is corrected the system overwrites the old value to keep the record tidy; previous entries are not retained.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "11.10"
+  ]
+ },
+ {
+  "proposal": "ebr-rollout",
+  "title": "Electronic batch record system rollout",
+  "clause_no": 4,
+  "clause": "The system writes a secure, computer-generated, time-stamped audit trail of every entry and action that creates, changes or deletes a record, and keeps it for as long as the record itself.",
+  "gold": "compliant",
+  "gold_sections": [
+   "11.10"
+  ]
+ },
+ {
+  "proposal": "ebr-rollout",
+  "title": "Electronic batch record system rollout",
+  "clause_no": 5,
+  "clause": "The system will go live at all three plants in March; validation testing is deferred to a later phase if budget allows.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "11.10"
+  ]
+ },
+ {
+  "proposal": "ebr-rollout",
+  "title": "Electronic batch record system rollout",
+  "clause_no": 6,
+  "clause": "Signed records will display the signer's initials only. The date, time and meaning of the signature will not be shown on screen or on printouts.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "11.50"
+  ]
+ },
+ {
+  "proposal": "ebr-rollout",
+  "title": "Electronic batch record system rollout",
+  "clause_no": 7,
+  "clause": "System access is limited to authorised individuals, and authority checks restrict who can sign, alter a record or perform an operation.",
+  "gold": "compliant",
+  "gold_sections": [
+   "11.10"
+  ]
+ },
+ {
+  "proposal": "ebr-rollout",
+  "title": "Electronic batch record system rollout",
+  "clause_no": 8,
+  "clause": "Passwords are set once at onboarding and remain valid for the length of employment; there is no periodic review or expiry.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "11.300"
+  ]
+ },
+ {
+  "proposal": "ebr-rollout",
+  "title": "Electronic batch record system rollout",
+  "clause_no": 9,
+  "clause": "Lost or stolen access cards are electronically deauthorised as soon as they are reported, and replacements are issued under controlled procedures.",
+  "gold": "compliant",
+  "gold_sections": [
+   "11.300"
+  ]
+ },
+ {
+  "proposal": "ebr-rollout",
+  "title": "Electronic batch record system rollout",
+  "clause_no": 10,
+  "clause": "Data entered into the system will be held on the production server alone; no backup copy will be maintained.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.68"
+  ]
+ },
+ {
+  "proposal": "ebr-rollout",
+  "title": "Electronic batch record system rollout",
+  "clause_no": 11,
+  "clause": "Automated equipment is calibrated and checked under a written programme, and written records of those checks are kept.",
+  "gold": "compliant",
+  "gold_sections": [
+   "211.68"
+  ]
+ },
+ {
+  "proposal": "ebr-rollout",
+  "title": "Electronic batch record system rollout",
+  "clause_no": 12,
+  "clause": "We can produce accurate and complete copies of records in human-readable and electronic form for inspection.",
+  "gold": "compliant",
+  "gold_sections": [
+   "11.10"
+  ]
+ },
+ {
+  "proposal": "lab-cost-reduction",
+  "title": "Laboratory and stability cost reduction plan",
+  "clause_no": 1,
+  "clause": "Expiration dates for the new oral suspension will be set at 36 months based on the shelf life of a similar competitor product; no stability study of our own is planned.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.137",
+   "211.166"
+  ]
+ },
+ {
+  "proposal": "lab-cost-reduction",
+  "title": "Laboratory and stability cost reduction plan",
+  "clause_no": 2,
+  "clause": "Stability is tested under a written programme, with the product stored in the same container-closure system in which it is marketed.",
+  "gold": "compliant",
+  "gold_sections": [
+   "211.166"
+  ]
+ },
+ {
+  "proposal": "lab-cost-reduction",
+  "title": "Laboratory and stability cost reduction plan",
+  "clause_no": 3,
+  "clause": "Reserve samples of each finished batch will be discarded once the batch has been released, freeing up the retain room.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.170"
+  ]
+ },
+ {
+  "proposal": "lab-cost-reduction",
+  "title": "Laboratory and stability cost reduction plan",
+  "clause_no": 4,
+  "clause": "A reserve sample of each lot of active ingredient is kept, at least twice the quantity needed for all specification tests, for one year after the expiry of the last product lot containing it.",
+  "gold": "compliant",
+  "gold_sections": [
+   "211.170"
+  ]
+ },
+ {
+  "proposal": "lab-cost-reduction",
+  "title": "Laboratory and stability cost reduction plan",
+  "clause_no": 5,
+  "clause": "Customer complaints received by telephone will be handled by the call centre and need not be written down unless the caller follows up by letter.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.198"
+  ]
+ },
+ {
+  "proposal": "lab-cost-reduction",
+  "title": "Laboratory and stability cost reduction plan",
+  "clause_no": 6,
+  "clause": "Every complaint record states the product name and strength, lot number, complainant, nature of the complaint and our reply, and is kept at the manufacturing site.",
+  "gold": "compliant",
+  "gold_sections": [
+   "211.198"
+  ]
+ },
+ {
+  "proposal": "lab-cost-reduction",
+  "title": "Laboratory and stability cost reduction plan",
+  "clause_no": 7,
+  "clause": "Returned product that sat in an unrefrigerated truck for an unknown period will be restocked for sale if the cartons look intact.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.204"
+  ]
+ },
+ {
+  "proposal": "lab-cost-reduction",
+  "title": "Laboratory and stability cost reduction plan",
+  "clause_no": 8,
+  "clause": "Equipment is cleaned whenever an operator thinks it necessary; there will be no written cleaning procedure or schedule.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.67"
+  ]
+ },
+ {
+  "proposal": "lab-cost-reduction",
+  "title": "Laboratory and stability cost reduction plan",
+  "clause_no": 9,
+  "clause": "Equipment is inspected for cleanliness immediately before use, and clean equipment is protected from contamination until then.",
+  "gold": "compliant",
+  "gold_sections": [
+   "211.67"
+  ]
+ },
+ {
+  "proposal": "lab-cost-reduction",
+  "title": "Laboratory and stability cost reduction plan",
+  "clause_no": 10,
+  "clause": "The quantities of labels issued, used and returned for a batch will no longer be reconciled; any leftover printed labels carrying lot numbers go back into general stock.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.125"
+  ]
+ },
+ {
+  "proposal": "lab-cost-reduction",
+  "title": "Laboratory and stability cost reduction plan",
+  "clause_no": 11,
+  "clause": "Product quality data are reviewed at least once a year for each product, covering a representative number of batches, complaints, recalls and returns.",
+  "gold": "compliant",
+  "gold_sections": [
+   "211.180"
+  ]
+ },
+ {
+  "proposal": "lab-cost-reduction",
+  "title": "Laboratory and stability cost reduction plan",
+  "clause_no": 12,
+  "clause": "Sampling plans for finished-product testing will be decided by the analyst on the day and are not documented.",
+  "gold": "non_compliant",
+  "gold_sections": [
+   "211.165"
+  ]
+ }
+]
