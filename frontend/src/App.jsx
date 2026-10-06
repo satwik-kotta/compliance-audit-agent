@@ -11,7 +11,28 @@ const VERDICTS = {
 }
 const ORDER = ['non_compliant', 'needs_review', 'compliant', 'no_flag', 'not_addressed']
 
+// Static mode (GitHub Pages): no server, so replay pre-computed audits of the sample proposals.
+const STATIC = import.meta.env.VITE_STATIC === '1'
+let staticData
+const norm = t => t.replace(/\s+/g, ' ').trim()
+
+async function staticJSON(path, options) {
+  staticData = staticData || await (await fetch('./static.json')).json()
+  if (path === '/api/health') return staticData.health
+  if (path === '/api/samples') return staticData.samples
+  if (path.startsWith('/api/passages/')) {
+    const p = staticData.passages[decodeURIComponent(path.slice('/api/passages/'.length))]
+    if (!p) throw new Error('Unknown passage')
+    return p
+  }
+  const text = norm(JSON.parse(options.body).text)
+  const sample = staticData.samples.find(s => norm(s.text) === text)
+  if (!sample) throw new Error('This hosted demo replays audits of the three sample proposals. To audit your own text, run the app locally (see the README).')
+  return staticData.audits[sample.id]
+}
+
 async function getJSON(path, options) {
+  if (STATIC) return staticJSON(path, options)
   const res = await fetch(API + path, options)
   const body = await res.json().catch(() => ({}))
   if (!res.ok) throw new Error(typeof body.detail === 'string' ? body.detail : 'The proposal could not be audited. Check that it is at least a sentence long.')
@@ -128,7 +149,7 @@ export default function App() {
             <button className="primary" onClick={audit} disabled={busy || text.trim().length < 40}>
               {busy ? 'Auditing…' : 'Run audit'}
             </button>
-            <span className="muted">Sample proposals are fictional and written for testing.</span>
+            <span className="muted">{STATIC ? 'Hosted demo: pick a sample, then run the audit. Results are pre-computed.' : 'Sample proposals are fictional and written for testing.'}</span>
           </div>
           {error && <p className="error" role="alert">{error}</p>}
         </section>

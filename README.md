@@ -2,7 +2,9 @@
 
 Paste an internal proposal and get a clause-by-clause audit against FDA drug manufacturing rules, with the exact paragraph and a verbatim quote behind every finding. A citation the software cannot find word for word in the regulation is removed before you see it.
 
-**Live demo:** _add your Render URL here after deploying (see Deploy)_
+**Live demo:** https://satwik-kotta.github.io/compliance-audit-agent/
+
+The hosted demo has no server: it replays pre-computed audits of the three sample proposals using the keyword baseline. To audit your own text, or to use the LLM analyst, run the app locally or deploy it (see Deploy).
 
 Corpus: 21 CFR Part 11 (electronic records and signatures) and Parts 210 and 211 (current good manufacturing practice), 73 sections split into 305 citable passages.
 
@@ -87,7 +89,9 @@ One container serves the API and the built front end.
 
 1. On Render: New → Blueprint → pick this repository. `render.yaml` and the `Dockerfile` do the rest.
 2. Optionally set `ANTHROPIC_API_KEY` or `OPENAI_API_KEY` in the service's environment.
-3. Put the service URL at the top of this README.
+3. Add the service URL to the top of this README.
+
+The static demo on GitHub Pages is rebuilt with `make pages`, which writes `docs/`.
 
 ## API
 
